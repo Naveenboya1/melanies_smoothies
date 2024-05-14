@@ -27,12 +27,12 @@ ingredients_list = st.multiselect(
 )   
 
 
-name_on_order = st.text_input("Name of Smoothie!")
-st.write("Name of Smoothie will be", name_on_order)
 if  ingredients_list:
     ingredients_string=''
     
     
+name_on_order = st.text_input("Name of Smoothie!")
+st.write("Name of Smoothie will be", name_on_order)
     
     
         for fruit_choosan in ingredients_list:
@@ -43,7 +43,7 @@ if  ingredients_list:
 
         
             
-    st.write(ingredients_string)
+          st.write(ingredients_string)
 
 
 
